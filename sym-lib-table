@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "00_Luc")(type "KiCad")(uri "${KIPRJMOD}/footprints/00_Luc.kicad_sym")(options "")(descr ""))
   (lib (name "00_LM66200DRLR")(type "KiCad")(uri "${KIPRJMOD}/footprints/00_LM66200DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "00_PTL60")(type "KiCad")(uri "${KIPRJMOD}/footprints/PTL60-15G1-103B2.kicad_sym")(options "")(descr ""))
 )
