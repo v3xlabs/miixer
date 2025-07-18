@@ -1,13 +1,13 @@
+<p align="center">
+  <img src="./docs/pcb-angled.png" width="350" title="MIIXER">
+</p>
+
 # MIIXER
 
 An open-hardware midi controller with esp32-s3, 4 linear faders, 8 keyswitches.
 
 > [!NOTE]
 > This is a work in progress.
-
-<p align="center">
-  <img src="./docs/pcb-angled.png" width="350" title="MIIXER">
-</p>
 
 ## Technical Specs
 
