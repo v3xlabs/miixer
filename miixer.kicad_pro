@@ -477,7 +477,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(116, 255, 54)",
+      "VBUS": "rgb(255, 117, 6)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

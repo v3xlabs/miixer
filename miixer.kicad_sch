@@ -1516,6 +1516,26 @@
 				(justify left)
 			)
 		)
+		(pin "ADC_INTERRUPT" input
+			(at 135.89 113.03 180)
+			(uuid "5a7dec2a-f957-4dfd-b947-2a85c448e1c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_INTERRUPT" input
+			(at 135.89 115.57 180)
+			(uuid "e3083703-60f1-4964-a5be-5f1efe8ad891")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "miixer"
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3"
@@ -1581,6 +1601,26 @@
 		(pin "SDA" bidirectional
 			(at 119.38 125.73 0)
 			(uuid "a32597e1-2902-46f0-a802-829467d31ddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_INTERRUPT" output
+			(at 119.38 133.35 0)
+			(uuid "3a4d1612-2e79-4bcf-8075-41e1ec95370e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_INTERRUPT" output
+			(at 119.38 135.89 0)
+			(uuid "a5de6d09-e164-437e-ae74-d73ceae56d54")
 			(effects
 				(font
 					(size 1.27 1.27)

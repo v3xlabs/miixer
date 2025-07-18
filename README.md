@@ -61,4 +61,12 @@ binary_sensor:
     pin: P0
     name: "Switch 1"
     # etc
+
+light:
+  - platform: fastled_clockless
+    chipset: SK6812           # supports 4‑channel RGBW SK6812
+    pin: GPIO7               # the data line pin
+    num_leds: 4              # you’ve got 4 LEDs
+    rgb_order: GRB           # adjust if colours mismatch
+    name: "SK6812 Array"
 ```
