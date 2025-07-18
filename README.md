@@ -6,7 +6,7 @@ An open-hardware midi controller with esp32-s3, 4 linear faders, 8 keyswitches.
 > This is a work in progress.
 
 <p align="center">
-  <img src="./docs/pcb-angled.jpg" width="350" title="MIIXER">
+  <img src="./docs/pcb-angled.png" width="350" title="MIIXER">
 </p>
 
 ## Technical Specs
@@ -24,6 +24,6 @@ An open-hardware midi controller with esp32-s3, 4 linear faders, 8 keyswitches.
 See the [docs](docs) folder for the rendered schematics, PCBs, and 3D renders.
 
 <p align="center">
-  <img src="./docs/pcb-front.jpg" width="350" title="Front of MIIXER">
-  <img src="./docs/pcb-back.jpg" width="350" alt="Back of MIIXER">
+  <img src="./docs/pcb-front.png" width="350" title="Front of MIIXER">
+  <img src="./docs/pcb-back.png" width="350" alt="Back of MIIXER">
 </p>
