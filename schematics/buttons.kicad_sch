@@ -661,7 +661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1125d111-4af3-40ac-9b18-21d90b361de2")
-		(property "Reference" "VR2"
+		(property "Reference" "FAD2"
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -777,7 +777,7 @@
 		(instances
 			(project "miixer"
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/5611f13c-04e1-436b-9132-43ac5c8df051"
-					(reference "VR2")
+					(reference "FAD2")
 					(unit 1)
 				)
 			)
@@ -860,7 +860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358e7fd9-fd16-4e69-acd3-df85492552f1")
-		(property "Reference" "VR3"
+		(property "Reference" "FAD3"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -976,7 +976,7 @@
 		(instances
 			(project "miixer"
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/5611f13c-04e1-436b-9132-43ac5c8df051"
-					(reference "VR3")
+					(reference "FAD3")
 					(unit 1)
 				)
 			)
@@ -1320,6 +1320,138 @@
 		)
 	)
 	(symbol
+		(lib_id "00_PTL60:PTL60-15G1-103B2")
+		(at 125.73 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b050eb1-30ce-44af-9188-01c358c93cd6")
+		(property "Reference" "FAD4"
+			(at 142.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTL60-15G1-103B2"
+			(at 142.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_Luc:PTL6015G1103B2"
+			(at 154.94 229.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTL.pdf"
+			(at 154.94 329.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bourns 1 Gang Slide Carbon Potentiometer with an 6 mm Dia. Shaft - 10k, +/-20%, 0.2W Power Rating, Linear, Through Hole"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "22"
+			(at 154.94 529.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTL60-15G1-103B2"
+			(at 154.94 629.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15G1-103B2?qs=XxajcJZMfNxADct0M%2FB1oA%3D%3D"
+			(at 154.94 729.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 154.94 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTL60-15G1-103B2"
+			(at 154.94 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9017c6d5-e9ff-4bf4-a745-0f9186c7331d")
+		)
+		(pin "B1"
+			(uuid "f78b4018-f02d-4fd0-8674-16d52709528a")
+		)
+		(pin "E1"
+			(uuid "6b8bdab0-b028-419e-ad95-9cce3711945d")
+		)
+		(pin "2"
+			(uuid "c38142d2-56c5-44e0-beb9-4d8da2755dad")
+		)
+		(pin "L1"
+			(uuid "cb62875b-4332-4521-a655-44a190ba829a")
+		)
+		(pin "1"
+			(uuid "d8f92883-43c3-40da-adbc-988bca57ef75")
+		)
+		(instances
+			(project "miixer"
+				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/5611f13c-04e1-436b-9132-43ac5c8df051"
+					(reference "FAD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 95.25 0)
 		(unit 1)
@@ -1454,138 +1586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "00_PTL60:PTL60-15G1-103B2")
-		(at 125.73 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c54607a4-38c0-41c3-a346-3671011ec6bc")
-		(property "Reference" "VR4"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTL60-15G1-103B2"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00_Luc:PTL6015G1103B2"
-			(at 154.94 225.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTL.pdf"
-			(at 154.94 325.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bourns 1 Gang Slide Carbon Potentiometer with an 6 mm Dia. Shaft - 10k, +/-20%, 0.2W Power Rating, Linear, Through Hole"
-			(at 125.73 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "22"
-			(at 154.94 525.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PTL60-15G1-103B2"
-			(at 154.94 625.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15G1-103B2?qs=XxajcJZMfNxADct0M%2FB1oA%3D%3D"
-			(at 154.94 725.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 154.94 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTL60-15G1-103B2"
-			(at 154.94 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9f9ddbef-b5d2-4f52-9db0-c33f4d5673c9")
-		)
-		(pin "B1"
-			(uuid "5b7bef8e-f2d4-47a3-9b57-03da3890c7fb")
-		)
-		(pin "E1"
-			(uuid "9654547c-d9ab-4e6b-bc0f-999db7740f47")
-		)
-		(pin "2"
-			(uuid "46259b5c-ce06-44da-957f-ad91ad849c65")
-		)
-		(pin "L1"
-			(uuid "b7ee410a-4a56-478c-84d5-2c10e6cb97c1")
-		)
-		(pin "1"
-			(uuid "adb0faf8-656d-49e8-9c3f-bc63826169ce")
-		)
-		(instances
-			(project "miixer"
-				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/5611f13c-04e1-436b-9132-43ac5c8df051"
-					(reference "VR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 96.52 77.47 0)
 		(unit 1)
@@ -1663,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6e483f-5dae-4ce0-bad8-0740a695a4f6")
-		(property "Reference" "VR1"
+		(property "Reference" "FAD1"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -1779,7 +1779,7 @@
 		(instances
 			(project ""
 				(path "/f2af4cd4-99cf-4d01-92f6-6413371e0fe3/5611f13c-04e1-436b-9132-43ac5c8df051"
-					(reference "VR1")
+					(reference "FAD1")
 					(unit 1)
 				)
 			)

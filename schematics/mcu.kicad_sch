@@ -1029,16 +1029,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 97.79) (xy 92.71 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c1a6b8-fe39-4900-aa0a-6bcfee5ac55e")
-	)
-	(wire
-		(pts
 			(xy 114.3 87.63) (xy 125.73 87.63)
 		)
 		(stroke
@@ -1046,16 +1036,6 @@
 			(type default)
 		)
 		(uuid "73bf0df0-f37b-44cd-929a-f2bd31709b97")
-	)
-	(wire
-		(pts
-			(xy 88.9 95.25) (xy 92.71 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "742829ba-6a48-4890-bcbd-87cc12ff2bf7")
 	)
 	(wire
 		(pts
@@ -1079,16 +1059,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.63) (xy 92.71 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a590ca4e-b130-4cf2-9ec1-f535bd4090e3")
-	)
-	(wire
-		(pts
 			(xy 22.86 36.83) (xy 22.86 43.18)
 		)
 		(stroke
@@ -1096,16 +1066,6 @@
 			(type default)
 		)
 		(uuid "ace5a28a-49cb-4d74-a03d-955381922ff4")
-	)
-	(wire
-		(pts
-			(xy 88.9 92.71) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4af867c-d0f2-437f-9e90-4f85fc9650e8")
 	)
 	(wire
 		(pts
@@ -1136,16 +1096,6 @@
 			(type default)
 		)
 		(uuid "e03be878-1397-4c7d-a6eb-daaa8fd7a482")
-	)
-	(wire
-		(pts
-			(xy 88.9 90.17) (xy 92.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e835f2c3-982f-4d80-8657-19016e996357")
 	)
 	(label "ENABLE"
 		(at 114.3 82.55 180)
@@ -1198,17 +1148,6 @@
 		)
 		(uuid "07387329-77d4-482e-aa3c-f54ec6058ef0")
 	)
-	(hierarchical_label "SW_DOWN_MCU"
-		(shape input)
-		(at 88.9 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c76411f-30a4-47d6-95f0-ed2ab5ece814")
-	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 114.3 118.11 180)
@@ -1219,61 +1158,6 @@
 			(justify right)
 		)
 		(uuid "66154254-140f-4eb8-92fd-03fc723c09f3")
-	)
-	(hierarchical_label "SW_CENTER_MCU"
-		(shape input)
-		(at 88.9 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6919b876-fcd0-4b0f-a842-ae2ba51ae2c6")
-	)
-	(hierarchical_label "SW_RIGHT_MCU"
-		(shape input)
-		(at 88.9 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c48816d-31b2-42e0-bbf2-0088bd8ffa57")
-	)
-	(hierarchical_label "SW_UP_MCU"
-		(shape input)
-		(at 88.9 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d95f6fe1-9163-48f7-ad01-d787ced367f5")
-	)
-	(hierarchical_label "SW_LEFT_MCU"
-		(shape input)
-		(at 88.9 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e779b1ee-95f6-4894-b1bd-f5dc9433a033")
-	)
-	(hierarchical_label "CHRG_STATUS_MCU"
-		(shape input)
-		(at 88.9 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f905000e-a271-44b2-bcd7-b9e3d85f0f22")
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-C3-WROOM-02")
