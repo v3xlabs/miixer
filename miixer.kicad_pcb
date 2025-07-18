@@ -1166,7 +1166,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/ef6e483f-5dae-4ce0-bad8-0740a695a4f6")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 72.5 -3.25)
 			(end 1.5 -3.25)
@@ -2171,7 +2171,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/0dfed6eb-742c-4137-b6ce-05ef34f29f6f")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -2520,7 +2520,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/8b050eb1-30ce-44af-9188-01c358c93cd6")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 72.5 -3.25)
 			(end 1.5 -3.25)
@@ -3413,7 +3413,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/1125d111-4af3-40ac-9b18-21d90b361de2")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 72.5 -3.25)
 			(end 1.5 -3.25)
@@ -3751,7 +3751,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/828c484a-5dd6-448c-aa25-26a3b1943acb")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -4897,7 +4897,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/41e156d1-97a7-40b5-a9e5-eff231f3db5a")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -5180,7 +5180,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/2006a269-c4c7-4704-9998-bda3bf7c78d2")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -5460,6 +5460,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(fp_rect
 			(start -5 -5)
 			(end -4.6 -4.6)
@@ -9121,7 +9122,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/358e7fd9-fd16-4e69-acd3-df85492552f1")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 72.5 -3.25)
 			(end 1.5 -3.25)
@@ -9658,7 +9659,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/61fd5178-85e2-47cb-b0f1-db8d1d7863da")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -9941,7 +9942,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/c0ce2aa8-3277-4f07-b188-425b3b1ff363")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -10224,7 +10225,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/dbc55572-e6d4-44ec-b349-19bc7428c0ca")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -10507,7 +10508,7 @@
 		(path "/5611f13c-04e1-436b-9132-43ac5c8df051/49ae2265-3c09-4232-837e-b6fed8d50e37")
 		(sheetname "/Buttons/")
 		(sheetfile "schematics/buttons.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -7.1 -7.1)
 			(end -7.1 7.1)
@@ -10744,7 +10745,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "53d80551-a18e-4034-a6b3-af37cfe39fb6")
+			(uuid "54e45824-e8bd-4a76-8aa0-0bff91fd4747")
 			(effects
 				(font
 					(size 1 1)
@@ -10755,7 +10756,7 @@
 		(property "Value" "Conn_01x10_Pin"
 			(at 0 25.24 0)
 			(layer "F.Fab")
-			(uuid "bfeeb3fd-238b-411b-8e3b-ddf9011a221f")
+			(uuid "dde7e90b-9aab-40c0-8e13-248490f3436a")
 			(effects
 				(font
 					(size 1 1)
@@ -10767,7 +10768,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cb3127c-056c-48aa-9d63-cdf7ea22c7f4")
+			(uuid "d9f1fca1-62ba-47f4-8f74-aa568050dce9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10779,7 +10780,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6746277-7aeb-405f-9195-27acf593ecfd")
+			(uuid "1ad492c5-fdc5-4d3d-9b07-6564830ff1f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10792,7 @@
 		(path "/4be9a3b2-677c-475c-965d-e887c70aa45e")
 		(sheetname "/")
 		(sheetfile "miixer.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -11065,6 +11066,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15770,7 +15772,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ESP32-C3-WROOM-02"
+		(property "Value" "ESP32-C3-WROOM-02-N4"
 			(at 6.6 -3.375 90)
 			(layer "B.Fab")
 			(uuid "0c886a32-ad1d-4f3e-b168-861bff60346f")
