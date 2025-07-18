@@ -47,16 +47,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 121.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52bad737-428e-4dec-83de-aec37c17cd36")
-	)
-	(wire
-		(pts
 			(xy 119.38 135.89) (xy 132.08 135.89)
 		)
 		(stroke
@@ -127,16 +117,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 135.89 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8a8da8-5247-41ad-82bd-f407a66f09bd")
-	)
-	(wire
-		(pts
 			(xy 119.38 133.35) (xy 129.54 133.35)
 		)
 		(stroke
@@ -164,16 +144,6 @@
 			(type default)
 		)
 		(uuid "e2d864e4-0074-4806-99de-c624cba14f29")
-	)
-	(wire
-		(pts
-			(xy 121.92 62.23) (xy 121.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f3e953-ab9b-4c5d-871b-a7568c4d6da8")
 	)
 	(wire
 		(pts
@@ -493,16 +463,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "CHRG_STATUS_MCU" output
-			(at 119.38 62.23 0)
-			(uuid "5f965b29-e060-455c-bd76-b2ae5eb3e651")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
