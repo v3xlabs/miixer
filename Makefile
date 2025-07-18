@@ -4,6 +4,6 @@ OUT=docs
 
 build:
 	kicad-cli sch export svg -o $(OUT)/schematics $(SCHEM)
-	kicad-cli pcb render --perspective --quality high --side top -o $(OUT)/pcb-front.jpg $(BOARD)
-	kicad-cli pcb render --perspective --quality high --side bottom -o $(OUT)/pcb-back.jpg $(BOARD)
-	kicad-cli pcb render --perspective --quality high --rotate "'10,20,0'" -o $(OUT)/pcb-angled.jpg $(BOARD)
+	kicad-cli pcb render --perspective --quality high --zoom 0.8 --side top -o $(OUT)/pcb-front.jpg $(BOARD)
+	kicad-cli pcb render --perspective --quality high --zoom 0.8 --side bottom -o $(OUT)/pcb-back.jpg $(BOARD)
+	kicad-cli pcb render --perspective --quality high --zoom 0.8 --rotate "'10,20,0'" -o $(OUT)/pcb-angled.jpg $(BOARD)

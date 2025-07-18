@@ -1,17 +1,20 @@
-# SIIREN
+# MIIXER
 
-An open-hardware digital notifier with ePaper display, esp32-s3, and removable battery.
+An open-hardware midi controller with esp32-s3, 4 linear faders, 8 keyswitches.
 
 > [!NOTE]
 > This is a work in progress.
+
+<p align="center">
+  <img src="./docs/pcb-angled.jpg" width="350" title="MIIXER">
+</p>
 
 ## Technical Specs
 
 - **Processor**: esp32-s3
 - **Inputs**
-  - 5-btn slim d-pad
-- **Outputs**:
-  - ePaper display (specifics undecided)
+  - 4 linear potentiometers 600mm
+  - 8 Cherry MX Switches
 - **Connectivity**:
   - USB-C (Power, Data & Flash)
   - Wifi & BLE
@@ -21,6 +24,6 @@ An open-hardware digital notifier with ePaper display, esp32-s3, and removable b
 See the [docs](docs) folder for the rendered schematics, PCBs, and 3D renders.
 
 <p align="center">
-  <img src="./docs/pcb-front.jpg" width="350" title="Front of SIIREN">
-  <img src="./docs/pcb-back.jpg" width="350" alt="Back of SIIREN">
+  <img src="./docs/pcb-front.jpg" width="350" title="Front of MIIXER">
+  <img src="./docs/pcb-back.jpg" width="350" alt="Back of MIIXER">
 </p>
