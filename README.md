@@ -38,35 +38,68 @@ See the [docs](docs) folder for the rendered schematics, PCBs, and 3D renders.
 Due to the fact that this devices uses common off-the-shelf I2C ICs and is esp32-c3 based, you can easily use it with ESPHome.
 
 ```yaml
+# TODO: This yaml file is work in progress, its ment to give an impression, its has not been confirmed functional.
 i2c:
   sda: GPIO8
   scl: GPIO9
-  scan: true      # verify both 0x48 and your PCF8574 show up
+  scan: true
 
-# ADC
+# 4x Fader Input
 ads1115:
-  - address: 0x48
-    update_interval: 5s
-  sensors:
-    - multiplexer: A0
-      name: "ADS1115 A0"
+  address: 0x48 # todo confirm
+  update_interval: 5s
+  # todo interrupt pin (io6)
 
-# GPIO expander
+# 4x Fader LEDs
+tcl59208f:
+  id: led_drv # optional
+  address: # todo
+
+# 8x Keyswitch Input
 pcf8574:
-  - id: expander
-    address: 0x20   # set via A2/A1/A0 ties
+  id: expander # optional
+  address: 0x20 # todo confirm
+  # todo interrupt pin (io7)
+
 binary_sensor:
+  # 8x Keyswitch Input
   - platform: pcf8574
-    pcf8574: expander
     pin: P0
     name: "Switch 1"
-    # etc
+    # todo add 7 more pins
+
+sensor:
+  # 4x Fader Analog Input
+  - platform: ads1115
+    multiplexer: 'A0_GND' # todo
+    gain: 6.144 # todo
+    # todo 3 more pins
+
+output:
+  # 4x Fader LEDs
+  - platform: tcl59208f
+    driver: led_drv # optional
+    id: led1
+    channel: 0
+  - platform: tcl59208f
+    driver: led_drv # optional
+    id: led2
+    channel: 1
+  - platform: tcl59208f
+    driver: led_drv # optional
+    id: led3
+    channel: 2
+  - platform: tcl59208f
+    driver: led_drv # optional
+    id: led4
+    channel: 3
 
 light:
+  # 4x Fader SK6812
   - platform: fastled_clockless
-    chipset: SK6812           # supports 4‑channel RGBW SK6812
-    pin: GPIO7               # the data line pin
-    num_leds: 4              # you’ve got 4 LEDs
-    rgb_order: GRB           # adjust if colours mismatch
+    chipset: SK6812
+    pin: GPIO3
+    num_leds: 4
+    rgb_order: GRB
     name: "SK6812 Array"
 ```
