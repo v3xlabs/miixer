@@ -4,7 +4,7 @@
 
 # MIIXER
 
-An open-hardware midi controller with esp32-s3, 4 linear faders, 8 keyswitches.
+An open-hardware midi controller with esp32-c3, 4 linear faders, 8 keyswitches.
 
 > [!NOTE]
 > This is a work in progress.
