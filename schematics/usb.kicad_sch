@@ -2090,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "TYPE-C 16PIN 2MD(073)"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -2117,6 +2117,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765186"
 			(at 128.27 90.17 0)
 			(effects
 				(font
