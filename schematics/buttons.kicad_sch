@@ -4143,25 +4143,15 @@
 		)
 		(uuid "ffeb22e5-12f1-4ffc-8495-d705174e9c4f")
 	)
-	(label "FAD2_LED"
-		(at 111.76 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c1b8b8c-ffbd-47c9-80d2-93fa4551b8ee")
-	)
-	(label "FAD1_WIPER"
-		(at 62.23 46.99 180)
+	(label "FAD2_WIPER"
+		(at 62.23 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "296a4a6a-7472-4a3c-810f-c829776beb50")
+		(uuid "109f4393-0931-452a-951d-200eaaf1da09")
 	)
 	(label "FAD2_WIPER"
 		(at 140.97 55.88 180)
@@ -4193,7 +4183,7 @@
 		)
 		(uuid "411c3020-27e0-409f-a8a1-5a354f308dd7")
 	)
-	(label "FAD3_LED"
+	(label "FAD2_LED"
 		(at 111.76 107.95 0)
 		(effects
 			(font
@@ -4201,17 +4191,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "48fb69e4-ba6a-46de-96ec-ffb07d5299f5")
-	)
-	(label "FAD4_LED"
-		(at 111.76 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a575ce7-f3c7-4f38-89c5-5caf3061e1ca")
+		(uuid "42cdc4b9-b85b-49dc-87f8-18cf304cd6a4")
 	)
 	(label "EXTRA_LED_3"
 		(at 33.02 105.41 180)
@@ -4223,6 +4203,26 @@
 		)
 		(uuid "5767a0dc-145a-491c-be1a-fa7c27f43f61")
 	)
+	(label "FAD4_WIPER"
+		(at 62.23 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c600642-c527-404a-b64e-4e235fda9ea7")
+	)
+	(label "FAD4_LED"
+		(at 111.76 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d6aefdb-814c-49af-968a-33e4ad992d72")
+	)
 	(label "FAD1_LED"
 		(at 144.78 43.18 180)
 		(effects
@@ -4232,26 +4232,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ebc4cad-6439-4c06-af3a-6d2271df062a")
-	)
-	(label "FAD3_WIPER"
-		(at 62.23 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7368c135-1871-4240-9562-fc551c6e46c3")
-	)
-	(label "FAD1_LED"
-		(at 111.76 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "785b399b-35b6-4313-931e-33f426cf1190")
 	)
 	(label "EXTRA_LED_3"
 		(at 138.43 115.57 180)
@@ -4263,6 +4243,16 @@
 		)
 		(uuid "837ceb27-3991-456b-863c-6183fdc6baa3")
 	)
+	(label "FAD1_LED"
+		(at 111.76 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b557f2d-3c96-4a05-b50e-2491cd905ccd")
+	)
 	(label "FAD3_LED"
 		(at 210.82 43.18 180)
 		(effects
@@ -4273,16 +4263,6 @@
 		)
 		(uuid "8c047c7e-23c3-4c21-8e77-ba7de41f5315")
 	)
-	(label "FAD4_WIPER"
-		(at 62.23 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8cb0370a-c837-421c-8d93-95141288ffdd")
-	)
 	(label "FAD1_WIPER"
 		(at 140.97 35.56 180)
 		(effects
@@ -4292,6 +4272,16 @@
 			(justify right bottom)
 		)
 		(uuid "8cfe842e-0ed8-4176-851d-61f1c0ac233e")
+	)
+	(label "FAD3_LED"
+		(at 111.76 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a121913d-b0a8-4588-9c7a-4db69e9d6260")
 	)
 	(label "FAD4_WIPER"
 		(at 210.82 55.88 180)
@@ -4323,6 +4313,26 @@
 		)
 		(uuid "a5c2713d-7beb-46d9-8b38-ea3e40837c02")
 	)
+	(label "EXTRA_LED_4"
+		(at 33.02 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0347607-e597-4f29-adc5-6b66b6a2e567")
+	)
+	(label "EXTRA_LED_1"
+		(at 33.02 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0dee562-e0dc-4f7d-b30a-96b9666c28fb")
+	)
 	(label "EXTRA_LED_1"
 		(at 138.43 107.95 180)
 		(effects
@@ -4332,16 +4342,6 @@
 			(justify right bottom)
 		)
 		(uuid "b7cdf9f2-3586-4e89-9751-56e72c20aeb0")
-	)
-	(label "FAD2_WIPER"
-		(at 62.23 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bbad2e14-ddb1-4903-8973-fa8b1e65f060")
 	)
 	(label "EXTRA_LED_2"
 		(at 33.02 102.87 180)
@@ -4363,25 +4363,25 @@
 		)
 		(uuid "dc59d733-1642-4e03-bff1-373fb3fb259c")
 	)
-	(label "EXTRA_LED_1"
-		(at 33.02 100.33 180)
+	(label "FAD3_WIPER"
+		(at 62.23 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ec5d5342-b4b4-4831-8a99-0291ca51b333")
+		(uuid "dc998b09-0c76-49a6-9f62-6022455640a0")
 	)
-	(label "EXTRA_LED_4"
-		(at 33.02 107.95 180)
+	(label "FAD1_WIPER"
+		(at 62.23 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f6d5079e-5c83-458a-b936-efd8eb89c6d8")
+		(uuid "e6ea0881-e103-40b0-b662-4a4f9c787491")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
